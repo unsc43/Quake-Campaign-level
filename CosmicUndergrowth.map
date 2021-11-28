@@ -7488,7 +7488,7 @@
 // entity 78
 {
 "classname" "trigger_once"
-"targetname" ""
+"targetname" "Trigger1"
 "target" "STarget"
 "wait" "1"
 // brush 0
@@ -7514,4 +7514,16 @@
 "origin" "-760 168 24"
 "targetname" "Path2"
 "target" "Path1"
+}
+// entity 81
+{
+"classname" "path_corner"
+"origin" "-192 -64 24"
+}
+// entity 82
+{
+"classname" "path_corner"
+"origin" "-192 200 24"
+"targetname" ""
+"target" ""
 }
