@@ -3546,6 +3546,15 @@
 ( -3624 -72 -192 ) ( -3623 -72 -192 ) ( -3624 -72 -191 ) blue_3 [ -1 0 0 -8 ] [ 0 0 -1 0 ] 0 1 1
 ( -3536 -80 -192 ) ( -3536 -80 -191 ) ( -3536 -79 -192 ) blue_3 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
+// brush 394
+{
+( -736 -304 80 ) ( -736 -303 80 ) ( -736 -304 81 ) trigger [ 0 -1 0 16 ] [ 0 0 -1 56 ] 0 1 1
+( -736 -192 80 ) ( -736 -192 81 ) ( -735 -192 80 ) trigger [ 1 0 0 -16 ] [ 0 0 -1 56 ] 0 1 1
+( -736 -304 80 ) ( -735 -304 80 ) ( -736 -303 80 ) trigger [ -1 0 0 16 ] [ 0 -1 0 16 ] 0 1 1
+( -696 -160 216 ) ( -696 -159 216 ) ( -695 -160 216 ) trigger [ 1 0 0 -16 ] [ 0 -1 0 16 ] 0 1 1
+( -696 -176 88 ) ( -695 -176 88 ) ( -696 -176 89 ) trigger [ -1 0 0 16 ] [ 0 0 -1 56 ] 0 1 1
+( -624 -160 88 ) ( -624 -160 89 ) ( -624 -159 88 ) trigger [ 0 1 0 -16 ] [ 0 0 -1 56 ] 0 1 1
+}
 }
 // entity 1
 {
@@ -6156,20 +6165,16 @@
 {
 "classname" "monster_dog"
 "origin" "-872 -320 40"
-"targetname" "Dog2"
 }
 // entity 45
 {
 "classname" "monster_army"
 "origin" "-680 368 112"
-"target" "path3"
-"targetname" "Enemy2"
 }
 // entity 46
 {
 "classname" "monster_army"
-"origin" "-664 -224 112"
-"targetname" "Enemy2"
+"origin" "-680 -224 112"
 }
 // entity 47
 {
@@ -7675,8 +7680,6 @@
 // entity 98
 {
 "classname" "trigger_once"
-"targetname" "Enemy2Targ"
-"target" "Enemy2"
 // brush 0
 {
 ( -1120 256 16 ) ( -1120 257 16 ) ( -1120 256 17 ) trigger [ 0 -1 0 32 ] [ 0 0 -1 0 ] 0 1 1
@@ -7690,92 +7693,49 @@
 // entity 99
 {
 "classname" "path_corner"
-"origin" "-704 472 24"
+"origin" "-688 472 24"
 "targetname" "path3"
 "target" "path4"
 }
 // entity 100
 {
 "classname" "path_corner"
-"origin" "-704 336 96"
+"origin" "-680 336 96"
 "targetname" "path4"
 "target" "path5"
 }
 // entity 101
 {
 "classname" "path_corner"
-"origin" "-704 128 152"
-"target" "path6"
+"origin" "-680 128 152"
+"target" ""
 "targetname" "path5"
 }
 // entity 102
 {
 "classname" "path_corner"
-"origin" "-704 0 152"
-"target" "path7"
+"origin" "-672 8 152"
+"target" ""
 "targetname" "path6"
 }
 // entity 103
 {
 "classname" "path_corner"
-"origin" "-704 -120 152"
-"target" "path8"
+"origin" "-680 -120 152"
+"target" ""
 "targetname" "path7"
 }
 // entity 104
 {
 "classname" "path_corner"
-"origin" "-656 -120 152"
-"target" "path12"
-"targetname" "path11"
+"origin" "-680 -120 152"
+"target" ""
+"targetname" "path7"
 }
 // entity 105
 {
 "classname" "path_corner"
-"origin" "-704 -256 96"
-"target" "path9"
+"origin" "-680 -256 96"
+"target" ""
 "targetname" "path8"
-}
-// entity 106
-{
-"classname" "trigger_once"
-"target" "Dog2"
-"targetname" "Dogtrigger2"
-// brush 0
-{
-( -736 -304 80 ) ( -736 -303 80 ) ( -736 -304 81 ) trigger [ 0 -1 0 16 ] [ 0 0 -1 56 ] 0 1 1
-( -736 -192 80 ) ( -736 -192 81 ) ( -735 -192 80 ) trigger [ 1 0 0 -16 ] [ 0 0 -1 56 ] 0 1 1
-( -736 -304 80 ) ( -735 -304 80 ) ( -736 -303 80 ) trigger [ -1 0 0 16 ] [ 0 -1 0 16 ] 0 1 1
-( -696 -160 216 ) ( -696 -159 216 ) ( -695 -160 216 ) trigger [ 1 0 0 -16 ] [ 0 -1 0 16 ] 0 1 1
-( -696 -176 88 ) ( -695 -176 88 ) ( -696 -176 89 ) trigger [ -1 0 0 16 ] [ 0 0 -1 56 ] 0 1 1
-( -624 -160 88 ) ( -624 -160 89 ) ( -624 -159 88 ) trigger [ 0 1 0 -16 ] [ 0 0 -1 56 ] 0 1 1
-}
-}
-// entity 107
-{
-"classname" "path_corner"
-"origin" "-784 -336 24"
-"target" "path10"
-"targetname" "path9"
-}
-// entity 108
-{
-"classname" "path_corner"
-"origin" "-664 -368 24"
-"target" "path11"
-"targetname" "path10"
-}
-// entity 109
-{
-"classname" "path_corner"
-"origin" "-664 88 152"
-"target" "path13"
-"targetname" "path12"
-}
-// entity 110
-{
-"classname" "path_corner"
-"origin" "-656 336 96"
-"target" "path3"
-"targetname" "path13"
 }
