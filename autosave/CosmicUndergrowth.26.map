@@ -4969,7 +4969,6 @@
 "classname" "monster_army"
 "origin" "-472 72 40"
 "targetname" "STarget"
-"target" "Path1"
 }
 // entity 22
 {
@@ -7504,14 +7503,12 @@
 // entity 79
 {
 "classname" "path_corner"
-"origin" "-472 -8 24"
+"origin" "-280 72 24"
 "target" "Path2"
 "targetname" "Path1"
 }
 // entity 80
 {
 "classname" "path_corner"
-"origin" "-760 168 24"
-"targetname" "Path2"
-"target" "Path1"
+"origin" "-392 72 24"
 }
