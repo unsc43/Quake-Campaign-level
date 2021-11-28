@@ -7487,7 +7487,7 @@
 }
 // entity 78
 {
-"classname" "trigger_multiple"
+"classname" "trigger_once"
 "targetname" ""
 "target" "STarget"
 "wait" "1"
