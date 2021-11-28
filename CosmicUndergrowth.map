@@ -9571,13 +9571,13 @@
 }
 // entity 147
 {
-"classname" "func_door_secret"
+"classname" "func_door"
 "sounds" "4"
 "target" ""
 "targetname" "Door2"
 "wait" "2.5"
 "angle" "180"
-"spawnflags" "9"
+"spawnflags" "0"
 // brush 0
 {
 ( 2804 -2412 202 ) ( 2804 -2411 202 ) ( 2804 -2412 203 ) 32_cyan_2 [ 3.8285686989269494e-16 -1 0 20 ] [ 0 0 -1 26 ] 0 1 1
@@ -9587,4 +9587,24 @@
 ( 2576 -2448 202 ) ( 2576 -2448 203 ) ( 2575 -2448 202 ) 32_cyan_2 [ -1 -3.8285686989269494e-16 0 16 ] [ 0 0 -1 26 ] 0 1 1
 ( 2832 -2540 170 ) ( 2832 -2540 171 ) ( 2832 -2539 170 ) 32_cyan_2 [ -3.8285686989269494e-16 1 0 -20 ] [ 0 0 -1 26 ] 0 1 1
 }
+}
+// entity 148
+{
+"classname" "weapon_nailgun"
+"origin" "1432 -2728 16"
+}
+// entity 149
+{
+"classname" "item_health"
+"origin" "1480 -2768 16"
+}
+// entity 150
+{
+"classname" "item_spikes"
+"origin" "1416 -2704 16"
+}
+// entity 151
+{
+"classname" "item_spikes"
+"origin" "1416 -2680 16"
 }
