@@ -9524,7 +9524,7 @@
 // entity 153
 {
 "classname" "func_door"
-"angle" "-1"
+"angle" "180"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9541,7 +9541,7 @@
 // entity 154
 {
 "classname" "func_door"
-"angle" "-2"
+"angle" "180"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9576,7 +9576,7 @@
 // entity 156
 {
 "classname" "func_door"
-"angle" "-1"
+"angle" "0"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9593,7 +9593,7 @@
 // entity 157
 {
 "classname" "func_door"
-"angle" "-2"
+"angle" "0"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9610,7 +9610,7 @@
 // entity 158
 {
 "classname" "func_door"
-"angle" "-1"
+"angle" "180"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9627,7 +9627,7 @@
 // entity 159
 {
 "classname" "func_door"
-"angle" "-2"
+"angle" "180"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9644,7 +9644,7 @@
 // entity 160
 {
 "classname" "func_door"
-"angle" "-1"
+"angle" "0"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9661,7 +9661,7 @@
 // entity 161
 {
 "classname" "func_door"
-"angle" "-2"
+"angle" "0"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9678,7 +9678,7 @@
 // entity 162
 {
 "classname" "func_door"
-"angle" "-1"
+"angle" "180"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9695,7 +9695,7 @@
 // entity 163
 {
 "classname" "func_door"
-"angle" "-2"
+"angle" "180"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9712,7 +9712,7 @@
 // entity 164
 {
 "classname" "func_door"
-"angle" "-1"
+"angle" "0"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9729,7 +9729,7 @@
 // entity 165
 {
 "classname" "func_door"
-"angle" "-2"
+"angle" "0"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9746,7 +9746,7 @@
 // entity 166
 {
 "classname" "func_door"
-"angle" "-1"
+"angle" "180"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9763,7 +9763,7 @@
 // entity 167
 {
 "classname" "func_door"
-"angle" "-2"
+"angle" "180"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9798,7 +9798,7 @@
 // entity 169
 {
 "classname" "func_door"
-"angle" "-2"
+"angle" "0"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9815,7 +9815,7 @@
 // entity 170
 {
 "classname" "func_door"
-"angle" "-2"
+"angle" "180"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9849,7 +9849,7 @@
 // entity 172
 {
 "classname" "func_door"
-"angle" "-2"
+"angle" "0"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9902,7 +9902,7 @@
 // entity 175
 {
 "classname" "func_door"
-"angle" "-2"
+"angle" "180"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9937,7 +9937,7 @@
 // entity 177
 {
 "classname" "func_door"
-"angle" "-2"
+"angle" "0"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -9972,7 +9972,7 @@
 // entity 179
 {
 "classname" "func_door"
-"angle" "-2"
+"angle" "0"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -10007,7 +10007,7 @@
 // entity 181
 {
 "classname" "func_door"
-"angle" "-2"
+"angle" "180"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -10115,7 +10115,7 @@
 // entity 190
 {
 "classname" "func_door"
-"angle" "-2"
+"angle" "0"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
@@ -10132,7 +10132,7 @@
 // entity 191
 {
 "classname" "func_door"
-"angle" "-1"
+"angle" "0"
 "targetname" "Ldoor1"
 "sounds" "2"
 "wait" "99999"
