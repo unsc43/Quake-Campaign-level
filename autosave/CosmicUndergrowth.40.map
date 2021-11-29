@@ -6696,7 +6696,7 @@
 // entity 35
 {
 "classname" "monster_dog"
-"origin" "1296 -2088 40"
+"origin" "1352 -2096 40"
 "angle" "75"
 "target" ""
 "targetname" "Dog3"
@@ -6704,7 +6704,7 @@
 // entity 36
 {
 "classname" "monster_dog"
-"origin" "1296 -1872 40"
+"origin" "1344 -1864 40"
 "angle" "270"
 "target" ""
 "targetname" "Dog3"
@@ -9879,7 +9879,7 @@
 // entity 170
 {
 "classname" "func_door"
-"angle" "180"
+"angle" "0"
 "targetname" "Ldoor1"
 "sounds" "2"
 // brush 0
@@ -9895,7 +9895,7 @@
 // entity 171
 {
 "classname" "func_door"
-"angle" "180"
+"angle" "0"
 "targetname" "Ldoor1"
 "sounds" "2"
 // brush 0
@@ -9943,7 +9943,7 @@
 // entity 174
 {
 "classname" "func_door"
-"angle" "180"
+"angle" "0"
 "targetname" "Ldoor1"
 "sounds" "2"
 // brush 0
@@ -9959,7 +9959,7 @@
 // entity 175
 {
 "classname" "func_door"
-"angle" "180"
+"angle" "0"
 "targetname" "Ldoor1"
 "sounds" "2"
 // brush 0
