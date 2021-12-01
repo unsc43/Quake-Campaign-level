@@ -15039,4 +15039,33 @@
 "targetname" "Ldoor1"
 "style" "9"
 "wait" "1"
+"_color" "0.223529 0.886275 0.521569"
+}
+// entity 328
+{
+"classname" "light"
+"origin" "536 -1720 144"
+"targetname" "Ldoor4"
+"style" "9"
+"wait" "1"
+"_color" "0.223529 0.886275 0.521569"
+}
+// entity 329
+{
+"classname" "light"
+"origin" "872 -2256 144"
+"targetname" "Ldoor2"
+"style" "9"
+"wait" "1"
+"_color" "0.223529 0.886275 0.521569"
+"target" ""
+}
+// entity 330
+{
+"classname" "light"
+"origin" "536 -2256 144"
+"targetname" "Ldoor3"
+"style" "9"
+"wait" "1"
+"_color" "0.223529 0.886275 0.521569"
 }
