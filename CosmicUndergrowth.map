@@ -16353,3 +16353,48 @@
 "light" "150"
 "_color" "0.937255 0.286275 0.0784314"
 }
+// entity 449
+{
+"classname" "light"
+"origin" "176 -1984 144"
+}
+// entity 450
+{
+"classname" "light"
+"origin" "-232 -2168 144"
+}
+// entity 451
+{
+"classname" "light"
+"origin" "-616 -2168 144"
+}
+// entity 452
+{
+"classname" "light"
+"origin" "-792 -1864 144"
+}
+// entity 453
+{
+"classname" "light"
+"origin" "-272 -1880 144"
+}
+// entity 454
+{
+"classname" "light"
+"origin" "0 -1984 144"
+}
+// entity 455
+{
+"classname" "light"
+"origin" "-240 -2016 -104"
+}
+// entity 456
+{
+"classname" "light"
+"origin" "-992 -2024 -104"
+}
+// entity 457
+{
+"classname" "light"
+"origin" "-1304 -2032 -104"
+}
