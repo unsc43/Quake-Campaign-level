@@ -19120,25 +19120,11 @@
 // entity 592
 {
 "classname" "light"
-"origin" "-1712 -1672 -152"
+"origin" "-1800 -1648 -88"
 "light" "100"
 "_color" "100 153 147"
 }
 // entity 593
-{
-"classname" "light"
-"origin" "-1936 -1664 -152"
-"light" "100"
-"_color" "100 153 147"
-}
-// entity 594
-{
-"classname" "light"
-"origin" "-1800 -1648 -152"
-"light" "100"
-"_color" "100 153 147"
-}
-// entity 595
 {
 "classname" "trigger_once"
 "targetname" "e"
@@ -19153,7 +19139,7 @@
 ( -2688 -920 -32 ) ( -2688 -920 -31 ) ( -2688 -919 -32 ) trigger [ 0 1 0 8 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 596
+// entity 594
 {
 "classname" "trigger_once"
 "targetname" "e"
@@ -19168,7 +19154,7 @@
 ( -2560 -824 -32 ) ( -2560 -824 -31 ) ( -2560 -823 -32 ) trigger [ 0 1 0 -24 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 597
+// entity 595
 {
 "classname" "trigger_once"
 "targetname" "e"
@@ -19183,7 +19169,7 @@
 ( -1568 -824 -32 ) ( -1568 -824 -31 ) ( -1568 -823 -32 ) trigger [ 0 1 0 -24 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 598
+// entity 596
 {
 "classname" "trigger_once"
 "targetname" "e"
@@ -19198,7 +19184,7 @@
 ( -816 -376 -32 ) ( -816 -376 -31 ) ( -816 -375 -32 ) trigger [ 0 1 0 40 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 599
+// entity 597
 {
 "classname" "trigger_once"
 "targetname" "e"
@@ -19213,7 +19199,7 @@
 ( -1328 -832 -32 ) ( -1328 -832 -31 ) ( -1328 -831 -32 ) trigger [ 0 1 0 48 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 600
+// entity 598
 {
 "classname" "trigger_multiple"
 "targetname" "DoorTrig2"
@@ -19228,7 +19214,7 @@
 ( -968 -416 -24 ) ( -968 -416 -23 ) ( -968 -415 -24 ) trigger [ 0 1 0 -56 ] [ 0 0 -1 -48 ] 0 1 1
 }
 }
-// entity 601
+// entity 599
 {
 "classname" "trigger_once"
 "targetname" "e"
@@ -19243,7 +19229,7 @@
 ( -1208 -376 -32 ) ( -1208 -376 -31 ) ( -1208 -375 -32 ) trigger [ 0 1 0 -24 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 602
+// entity 600
 {
 "classname" "trigger_once"
 "targetname" "e"
@@ -19258,7 +19244,7 @@
 ( -968 -392 -32 ) ( -968 -392 -31 ) ( -968 -391 -32 ) trigger [ 0 1 0 -8 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 603
+// entity 601
 {
 "classname" "trigger_multiple"
 "target" "a"
