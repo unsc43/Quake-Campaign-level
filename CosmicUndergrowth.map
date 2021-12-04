@@ -11573,6 +11573,7 @@
 "targetname" "LockedDoors"
 "target" "Ldoor2"
 "angle" "180"
+"message" "Door has Opened"
 // brush 0
 {
 ( 878 -1304 112 ) ( 878 -1304 113 ) ( 878 -1305 112 ) +0button_0 [ 1.4901161071382978e-08 -1 0 8 ] [ 0 0 -1 24 ] 180 1 1
@@ -11625,6 +11626,7 @@
 "targetname" "LockedDoors"
 "target" "Ldoor3"
 "angle" "180"
+"message" "Door has Opened"
 // brush 0
 {
 ( 838 -2824 24 ) ( 838 -2824 25 ) ( 838 -2825 24 ) +0button_0 [ 1.4901161071382978e-08 -1 0 -40 ] [ 0 0 -1 0 ] 180 1 1
@@ -11677,6 +11679,7 @@
 "targetname" "LockedDoors"
 "target" "Ldoor4"
 "angle" "90"
+"message" "Door has Opened"
 // brush 0
 {
 ( 524 -3398 24 ) ( 524 -3397 24 ) ( 524 -3398 25 ) +0button_0 [ 1.4901160887685958e-08 -0.9999999999999999 0 -14 ] [ 0 0 -1 0 ] 180 1 1
@@ -11728,6 +11731,7 @@
 "targetname" "LockedDoors"
 "target" "LDoor5"
 "angle" "180"
+"message" "Path cleared, Big Door has Opened"
 // brush 0
 {
 ( 558 -728 120 ) ( 558 -728 121 ) ( 558 -729 120 ) +0button_0 [ 1.4901161071382978e-08 -1 0 8 ] [ 0 0 -1 0 ] 180 1 1
