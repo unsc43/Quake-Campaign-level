@@ -15732,7 +15732,7 @@
 // entity 373
 {
 "classname" "light"
-"origin" "1696 -2672 176"
+"origin" "1696 -2680 168"
 "targetname" "Ldoor1"
 "style" "9"
 "wait" "1"
@@ -16478,11 +16478,9 @@
 // entity 472
 {
 "classname" "light"
-"origin" "1696 -2688 176"
+"origin" "1696 -2680 184"
+"style" "2"
 "targetname" "Ldoor1"
-"style" "9"
-"wait" "1"
-"_color" "0.219608 0.886275 0.521569"
 "target" ""
-"spawnflags" "1"
+"_color" "0.219608 0.886275 0.521569"
 }
