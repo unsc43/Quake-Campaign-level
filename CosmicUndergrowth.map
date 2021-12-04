@@ -16483,4 +16483,6 @@
 "targetname" "Ldoor1"
 "target" ""
 "_color" "0.219608 0.886275 0.521569"
+"delay" "2"
+"spawnflags" "1"
 }
