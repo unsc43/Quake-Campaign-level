@@ -15736,7 +15736,7 @@
 "targetname" "Ldoor1"
 "style" "9"
 "wait" "1"
-"_color" "0.223529 0.886275 0.521569"
+"_color" "0.737255 0.203922 0.0156863"
 }
 // entity 374
 {
@@ -16474,4 +16474,27 @@
 "style" "9"
 "wait" "1"
 "_color" "0.223529 0.886275 0.521569"
+}
+// entity 472
+{
+"classname" "path_corner"
+"origin" "1712 -2688 304"
+"targetname" "Ldoor1"
+"target" "Lightpath2"
+}
+// entity 473
+{
+"classname" "path_corner"
+"origin" "1696 -2688 176"
+"targetname" "Lightpath2"
+}
+// entity 474
+{
+"classname" "light"
+"origin" "1712 -2688 272"
+"targetname" ""
+"style" "9"
+"wait" "1"
+"_color" "0.219608 0.886275 0.521569"
+"target" "Lightpath"
 }
