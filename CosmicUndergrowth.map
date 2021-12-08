@@ -6,6 +6,7 @@
 "sounds" "0"
 "_tb_group" "126"
 "wad" "D:/QuakeDev/wads/Cosmic_Undergrowth.wad;D:/QuakeDev/wads/prototype_1_3.wad"
+"message" "Secret room, Do I enter?"
 // brush 0
 {
 ( 2376 -2100 -16 ) ( 2376 -2099 -16 ) ( 2376 -2100 -15 ) ghofloor1c_b [ 0 -1 0 12 ] [ 0 0 -1 0 ] 0 1 1
@@ -14563,6 +14564,7 @@
 "wait" "-1"
 "sounds" "4"
 "lip" "2"
+"message" "Seems like the second door"
 // brush 0
 {
 ( 872 -2252 66 ) ( 872 -2251 66 ) ( 872 -2252 67 ) stor_door [ 3.8285686989269494e-16 -1 0 52 ] [ 0 0 -1 18 ] 0 1 1
@@ -14581,6 +14583,7 @@
 "wait" "-1"
 "sounds" "4"
 "lip" "2"
+"message" "Seems like the second door"
 // brush 0
 {
 ( 844 -2252 66 ) ( 844 -2251 66 ) ( 844 -2252 67 ) stor_door [ 3.8285686989269494e-16 -1 0 20 ] [ 0 0 -1 18 ] 0 1 1
@@ -14616,6 +14619,7 @@
 "wait" "-1"
 "sounds" "2"
 "lip" "2"
+"message" "The third door "
 // brush 0
 {
 ( 508 -2252 66 ) ( 508 -2251 66 ) ( 508 -2252 67 ) stor_door [ 3.8285686989269494e-16 -1 0 20 ] [ 0 0 -1 18 ] 0 1 1
@@ -14634,6 +14638,7 @@
 "wait" "-1"
 "sounds" "4"
 "lip" "2"
+"message" "The third door "
 // brush 0
 {
 ( 536 -2252 66 ) ( 536 -2251 66 ) ( 536 -2252 67 ) stor_door [ 3.8285686989269494e-16 -1 0 52 ] [ 0 0 -1 18 ] 0 1 1
@@ -14669,6 +14674,7 @@
 "targetname" "Ldoor4"
 "wait" "-1"
 "lip" "2"
+"message" "Final door. Got to press the button"
 // brush 0
 {
 ( 508 -1644 66 ) ( 508 -1643 66 ) ( 508 -1644 67 ) stor_door [ 3.8285686989269494e-16 -1 0 20 ] [ 0 0 -1 18 ] 0 1 1
@@ -14686,6 +14692,7 @@
 "targetname" "Ldoor4"
 "wait" "-1"
 "lip" "2"
+"message" "Final door. Got to press the button"
 // brush 0
 {
 ( 536 -1644 66 ) ( 536 -1643 66 ) ( 536 -1644 67 ) stor_door [ 3.8285686989269494e-16 -1 0 20 ] [ 0 0 -1 18 ] 0 1 1
@@ -18153,7 +18160,7 @@
 "origin" "568 -712 144"
 "style" "9"
 "delay" ""
-"light" "150"
+"light" "250"
 "_color" "1 0 0"
 }
 // entity 389
