@@ -15133,7 +15133,7 @@
 // entity 221
 {
 "classname" "func_door"
-"targetname" "LockedSDoor2"
+"targetname" "LockedSDoor"
 "wait" "-1"
 "angle" "0"
 "sounds" "2"
@@ -15218,8 +15218,8 @@
 // entity 226
 {
 "classname" "func_button"
-"targetname" "ShootD1"
-"target" "LockedSDoor"
+"targetname" "dlight1"
+"target" "doorrelay"
 "health" "5"
 "message" "Button 1 hit"
 "angle" "90"
@@ -15237,7 +15237,7 @@
 {
 "classname" "func_button"
 "targetname" "ShootD2"
-"target" "LockedSDoor2"
+"target" "doorrelay"
 "health" "5"
 "message" "Button 2 Hit"
 "angle" "90"
@@ -19657,7 +19657,7 @@
 {
 "classname" "func_button"
 "targetname" "ShootD3"
-"target" "LockedSDoor"
+"target" "doorrelay"
 "health" "5"
 "message" "Button 3 Hit"
 "angle" "90"
@@ -19675,7 +19675,7 @@
 {
 "classname" "func_button"
 "targetname" "ShootD4"
-"target" "LockedSDoor2"
+"target" "doorrelay"
 "health" "5"
 "wait" ""
 "message" "Button 4 Hit"
@@ -23162,4 +23162,12 @@
 ( -1464 490 228 ) ( -1464 490 229 ) ( -1465 490 228 ) +0button_0 [ -1 -1.4901159111329119e-08 0 -24 ] [ 0 0 -1 12 ] 180 1 1
 ( -1434 482 220 ) ( -1434 482 221 ) ( -1434 483 220 ) +0button_0 [ -1.4901159111329119e-08 0.9999999999999999 0 -2 ] [ 0 0 -1 12 ] 180 1 1
 }
+}
+// entity 731
+{
+"classname" "trigger_counter"
+"origin" "-2808 -1104 152"
+"count" "4"
+"targetname" "doorrelay"
+"target" "LockedSDoor"
 }
