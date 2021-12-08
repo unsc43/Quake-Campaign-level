@@ -11798,13 +11798,13 @@
 // entity 50
 {
 "classname" "monster_dog"
-"origin" "416 -3456 40"
+"origin" "432 -3440 56"
 "angle" "90"
 }
 // entity 51
 {
 "classname" "monster_dog"
-"origin" "656 -3456 40"
+"origin" "648 -3456 56"
 "angle" "90"
 }
 // entity 52
@@ -16883,7 +16883,7 @@
 // entity 290
 {
 "classname" "monster_ogre_marksman"
-"origin" "1032 -688 104"
+"origin" "1032 -688 112"
 "angle" "90"
 "targetname" "spookOgr"
 }
@@ -22936,5 +22936,11 @@
 {
 "classname" "light"
 "origin" "880 -2776 56"
+"light" "250"
+}
+// entity 678
+{
+"classname" "light"
+"origin" "592 -2400 56"
 "light" "250"
 }
