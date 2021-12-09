@@ -6,7 +6,7 @@
 "sounds" "0"
 "_tb_group" "126"
 "wad" "D:/QuakeDev/wads/Cosmic_Undergrowth.wad;D:/QuakeDev/wads/prototype_1_3.wad"
-"message" "Secret room, Do I enter?"
+"message" ""
 // brush 0
 {
 ( 2376 -2100 -16 ) ( 2376 -2099 -16 ) ( 2376 -2100 -15 ) ghofloor1c_b [ 0 -1 0 12 ] [ 0 0 -1 0 ] 0 1 1
@@ -10336,6 +10336,15 @@
 ( -88 -318 264 ) ( -87 -318 264 ) ( -88 -318 265 ) text_6 [ -0.9999999999999998 7.605027718682322e-15 0 8 ] [ 0 0 -1 0 ] 0 1 1
 ( -86 -320 272 ) ( -86 -321 272 ) ( -86 -320 273 ) text_6 [ 7.605027718682322e-15 0.9999999999999996 0 -8 ] [ 0 0 -1 0 ] 0 1 1
 }
+// brush 1087
+{
+( -912 360 168 ) ( -912 360 169 ) ( -912 359 168 ) sofloor1 [ 0 1 0 -8 ] [ 0 0 -1 24 ] 180 1 1
+( -904 344 200 ) ( -904 344 201 ) ( -903 344 200 ) sofloor1 [ -1 0 0 8 ] [ 0 0 -1 24 ] 0 1 1
+( -1032 360 184 ) ( -1032 359 184 ) ( -1031 360 184 ) sofloor1 [ -1 0 0 8 ] [ 0 1 0 -8 ] 0 1 1
+( -904 232 208 ) ( -903 232 208 ) ( -904 231 208 ) sofloor1 [ 1 0 0 -32 ] [ 0 1 0 0 ] 0 0.5 0.5
+( -1032 608 168 ) ( -1031 608 168 ) ( -1032 608 169 ) sofloor1 [ 1 0 0 -8 ] [ 0 0 -1 24 ] 0 1 1
+( -600 232 200 ) ( -600 231 200 ) ( -600 232 201 ) sofloor1 [ 0 -1 0 8 ] [ 0 0 -1 24 ] 180 1 1
+}
 }
 // entity 1
 {
@@ -11876,6 +11885,7 @@
 "lip" "2"
 "wait" "-1"
 "sounds" "4"
+"message" "Secret area Do I enter?"
 // brush 0
 {
 ( 60 -572 114 ) ( 60 -571 114 ) ( 60 -572 115 ) stor_door [ 3.8285686989269494e-16 -1 0 4 ] [ 0 0 -1 70 ] 0 1 1
@@ -12092,6 +12102,7 @@
 "lip" "2"
 "wait" "-1"
 "sounds" "4"
+"message" "Secret area Do I enter?"
 // brush 0
 {
 ( 88 -572 114 ) ( 88 -571 114 ) ( 88 -572 115 ) stor_door [ 3.8285686989269494e-16 -1 0 4 ] [ 0 0 -1 70 ] 0 1 1
@@ -12603,6 +12614,7 @@
 "lip" "8"
 "sounds" "2"
 "angle" "-90"
+"targetname" "A4D3"
 // brush 0
 {
 ( -328 -576 216 ) ( -328 -575 216 ) ( -328 -576 217 ) deldoor1vert [ 0 -1 0 75 ] [ 0 0 -1 73 ] 0 1 0.5
@@ -12664,9 +12676,10 @@
 // entity 144
 {
 "classname" "func_button"
-"targetname" "LockedDoors"
-"target" ""
+"targetname" ""
+"target" "A4D3"
 "angle" "180"
+"message" "Area 6 unlocked"
 // brush 0
 {
 ( -650 -1432 228 ) ( -650 -1432 229 ) ( -650 -1433 228 ) +0button_0 [ 1.4901161071382978e-08 -1 0 -24 ] [ 0 0 -1 12 ] 180 1 1
@@ -12713,6 +12726,7 @@
 "classname" "func_door"
 "sounds" "2"
 "angle" "90"
+"targetname" "A4D3"
 // brush 0
 {
 ( -328 -520 216 ) ( -328 -519 216 ) ( -328 -520 217 ) deldoor1vert [ 0 -1 0 84 ] [ 0 0 -1 73 ] 0 1 0.5
@@ -12899,6 +12913,7 @@
 {
 "classname" "func_door"
 "wait" "-1"
+"targetname" "A4D4"
 // brush 0
 {
 ( -760 360 240 ) ( -760 361 240 ) ( -760 360 241 ) level1 [ -5.053215498074303e-16 -1 0 24 ] [ 0 0 -1 73 ] 0 1 1
@@ -12915,6 +12930,7 @@
 "targetname" "LockedDoors"
 "target" "doorrelay2"
 "angle" "180"
+"message" "Area 2 Done, get area 3"
 // brush 0
 {
 ( -1882 -344 228 ) ( -1882 -344 229 ) ( -1882 -345 228 ) +0button_0 [ 1.4901154310464904e-08 -1 0 -23.999939 ] [ 0 0 -1 12 ] 180 1 1
@@ -12945,6 +12961,7 @@
 "targetname" "LockedDoors"
 "target" "doorrelay2"
 "angle" "90"
+"message" "area 3 done make sure you hit 2"
 // brush 0
 {
 ( -1462 490 228 ) ( -1462 491 228 ) ( -1462 490 229 ) +0button_0 [ 1.4901159111329119e-08 -0.9999999999999999 0 2 ] [ 0 0 -1 12 ] 180 1 1
@@ -12960,6 +12977,7 @@
 "classname" "func_door"
 "angle" "180"
 "wait" "-1"
+"targetname" "A4D4"
 // brush 0
 {
 ( -808 360 240 ) ( -808 361 240 ) ( -808 360 241 ) level1 [ -5.053215498074303e-16 -1 0 24 ] [ 0 0 -1 73 ] 0 1 1
@@ -23425,16 +23443,11 @@
 }
 // entity 734
 {
-"classname" "item_key1"
-"origin" "-200 -264 232"
-}
-// entity 735
-{
 "classname" "monster_shalrath"
 "origin" "-1736 -328 232"
 "targetname" "monguy"
 }
-// entity 736
+// entity 735
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -23549,7 +23562,7 @@
 ( -1690 32 224 ) ( -1690 32 225 ) ( -1690 33 224 ) tabletop2 [ 0 1 0 0 ] [ 0 0 -1 8 ] 0 1 1
 }
 }
-// entity 737
+// entity 736
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -23664,7 +23677,7 @@
 ( -1690 160 224 ) ( -1690 160 225 ) ( -1690 161 224 ) tabletop2 [ 0 1 0 0 ] [ 0 0 -1 8 ] 0 1 1
 }
 }
-// entity 738
+// entity 737
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -23779,7 +23792,7 @@
 ( -1690 288 224 ) ( -1690 288 225 ) ( -1690 289 224 ) tabletop2 [ 0 1 0 0 ] [ 0 0 -1 8 ] 0 1 1
 }
 }
-// entity 739
+// entity 738
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -23894,7 +23907,7 @@
 ( -1522 32 224 ) ( -1522 32 225 ) ( -1522 33 224 ) tabletop2 [ 0 1 0 0 ] [ 0 0 -1 8 ] 0 1 1
 }
 }
-// entity 740
+// entity 739
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -24009,7 +24022,7 @@
 ( -1522 160 224 ) ( -1522 160 225 ) ( -1522 161 224 ) tabletop2 [ 0 1 0 0 ] [ 0 0 -1 8 ] 0 1 1
 }
 }
-// entity 741
+// entity 740
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -24124,7 +24137,7 @@
 ( -1522 288 224 ) ( -1522 288 225 ) ( -1522 289 224 ) tabletop2 [ 0 1 0 0 ] [ 0 0 -1 8 ] 0 1 1
 }
 }
-// entity 742
+// entity 741
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -24239,7 +24252,7 @@
 ( -1146 304 216 ) ( -1146 303 216 ) ( -1146 304 217 ) tabletop2 [ 1.2246467991473532e-16 1 0 0 ] [ 0 0 -1 8 ] 180 1 1
 }
 }
-// entity 743
+// entity 742
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -24354,7 +24367,7 @@
 ( -1146 176 216 ) ( -1146 175 216 ) ( -1146 176 217 ) tabletop2 [ 1.2246467991473532e-16 1 0 0 ] [ 0 0 -1 8 ] 180 1 1
 }
 }
-// entity 744
+// entity 743
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -24469,7 +24482,7 @@
 ( -1146 48 216 ) ( -1146 47 216 ) ( -1146 48 217 ) tabletop2 [ 1.2246467991473532e-16 1 0 0 ] [ 0 0 -1 8 ] 180 1 1
 }
 }
-// entity 745
+// entity 744
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -24530,7 +24543,7 @@
 ( -1310.1924249752742 -5.504071670077678 216 ) ( -1310.1924249752742 -5.504071670077678 217 ) ( -1309.9336059301716 -4.538145843788584 216 ) mcityplain6 [ 0.2588190451025215 0.965925826289068 0 120.41928 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 746
+// entity 745
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -24591,14 +24604,14 @@
 ( -1342.143593539449 266.64101615137747 216 ) ( -1342.143593539449 266.64101615137747 217 ) ( -1342.6435935394488 267.507041555162 216 ) mcityplain6 [ -0.5000000000000014 0.8660254037844377 0 -101.989746 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 747
+// entity 746
 {
 "classname" "monster_ogre"
 "origin" "-1472 264 232"
 "target" ""
 "targetname" "Zombies"
 }
-// entity 748
+// entity 747
 {
 "classname" "monster_ogre"
 "origin" "-1296 128 232"
@@ -24606,77 +24619,77 @@
 "target" ""
 "targetname" "Zombies"
 }
-// entity 749
+// entity 748
 {
 "classname" "weapon_rocketlauncher"
 "origin" "-1664 120 208"
 }
-// entity 750
+// entity 749
 {
 "classname" "item_health"
 "origin" "-1200 -96 208"
 }
-// entity 751
+// entity 750
 {
 "classname" "item_rockets"
 "origin" "-1168 208 208"
 }
-// entity 752
+// entity 751
 {
 "classname" "item_rockets"
 "origin" "-1184 208 208"
 }
-// entity 753
+// entity 752
 {
 "classname" "item_shells"
 "origin" "-1744 312 208"
 }
-// entity 754
+// entity 753
 {
 "classname" "item_shells"
 "origin" "-1768 312 208"
 }
-// entity 755
+// entity 754
 {
 "classname" "item_shells"
 "origin" "-1720 -104 208"
 }
-// entity 756
+// entity 755
 {
 "classname" "item_shells"
 "origin" "-1696 -104 208"
 }
-// entity 757
+// entity 756
 {
 "classname" "item_cells"
 "origin" "-1608 176 208"
 }
-// entity 758
+// entity 757
 {
 "classname" "item_cells"
 "origin" "-1584 176 208"
 }
-// entity 759
+// entity 758
 {
 "classname" "monster_zombie"
 "origin" "-1576 -72 232"
 "target" ""
 "targetname" "Zombies"
 }
-// entity 760
+// entity 759
 {
 "classname" "monster_zombie"
 "origin" "-1728 64 232"
 "target" ""
 "targetname" "Zombies2"
 }
-// entity 761
+// entity 760
 {
 "classname" "monster_zombie"
 "origin" "-1616 320 232"
 "targetname" "Zombies3"
 }
-// entity 762
+// entity 761
 {
 "classname" "monster_zombie"
 "origin" "-1216 96 232"
@@ -24684,14 +24697,14 @@
 "target" ""
 "targetname" "Zombies2"
 }
-// entity 763
+// entity 762
 {
 "classname" "monster_zombie"
 "origin" "-1224 224 232"
 "angle" "180"
 "targetname" "Zombies3"
 }
-// entity 764
+// entity 763
 {
 "classname" "monster_zombie"
 "origin" "-1272 -64 232"
@@ -24699,33 +24712,51 @@
 "target" ""
 "targetname" "Zombies"
 }
-// entity 765
+// entity 764
 {
 "classname" "monster_army"
 "origin" "-296 -360 232"
 }
-// entity 766
+// entity 765
 {
 "classname" "monster_army"
 "origin" "-184 -552 232"
 "angle" "90"
 }
-// entity 767
+// entity 766
 {
 "classname" "monster_dog"
 "origin" "-128 -256 232"
 "angle" "255"
 }
-// entity 768
+// entity 767
 {
 "classname" "monster_enforcer"
 "origin" "-96 -464 232"
 "angle" "180"
 }
-// entity 769
+// entity 768
 {
 "classname" "trigger_counter"
 "origin" "-1440 -280 264"
 "targetname" "doorrelay2"
 "target" "A4D2"
+"message" "Area 4 unlocked"
+}
+// entity 769
+{
+"classname" "func_button"
+"targetname" ""
+"target" "A4D4"
+"angle" "180"
+"message" "Area 7 unlocked"
+// brush 0
+{
+( -222 -210 220 ) ( -222 -210 221 ) ( -222 -211 220 ) +0button_0 [ 1.4901161676284453e-08 -0.9999999999999999 0 14 ] [ 0 0 -1 12 ] 180 1 1
+( -192 -218 228 ) ( -192 -218 229 ) ( -191 -218 228 ) +0button_0 [ 1 1.4901161676284453e-08 0 0 ] [ 0 0 -1 12 ] 180 1 1
+( -248 -210 238 ) ( -248 -211 238 ) ( -247 -210 238 ) +0button_0 [ -1.4901161676284453e-08 0.9999999999999999 0 -14 ] [ -1 -1.4901161676284453e-08 0 0 ] 270 1 1
+( -192 -218 260 ) ( -191 -218 260 ) ( -192 -219 260 ) +0button_0 [ 1.4901161676284453e-08 -0.9999999999999999 0 14 ] [ -1 -1.4901161676284453e-08 0 0 ] 90 1 1
+( -248 -210 220 ) ( -247 -210 220 ) ( -248 -210 221 ) +0button_0 [ -1 -1.4901161676284453e-08 0 0 ] [ 0 0 -1 12 ] 180 1 1
+( -194 -218 228 ) ( -194 -219 228 ) ( -194 -218 229 ) +0button_0 [ -1.4901161676284453e-08 0.9999999999999999 0 -14 ] [ 0 0 -1 12 ] 180 1 1
+}
 }
