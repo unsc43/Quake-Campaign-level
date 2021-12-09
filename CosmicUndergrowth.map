@@ -22368,6 +22368,7 @@
 "classname" "func_door"
 "sounds" "2"
 "angle" "90"
+"targetname" "A4D2"
 // brush 0
 {
 ( -600 -616 216 ) ( -600 -615 216 ) ( -600 -616 217 ) deldoor1vert [ 0 -1 0 -12 ] [ 0 0 -1 73 ] 0 1 0.5
@@ -22384,6 +22385,7 @@
 "lip" "8"
 "sounds" "2"
 "angle" "-90"
+"targetname" "A4D2"
 // brush 0
 {
 ( -600 -672 216 ) ( -600 -671 216 ) ( -600 -672 217 ) deldoor1vert [ 0 -1 0 -21 ] [ 0 0 -1 73 ] 0 1 0.5
@@ -24734,4 +24736,5 @@
 "classname" "trigger_counter"
 "origin" "-1440 -280 264"
 "targetname" "doorrelay2"
+"target" "A4D2"
 }
