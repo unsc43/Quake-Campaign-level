@@ -23637,17 +23637,17 @@
 // entity 694
 {
 "classname" "monster_fish"
-"origin" "-408 -1416 72"
+"origin" "-408 -1416 80"
 }
 // entity 695
 {
 "classname" "monster_fish"
-"origin" "-464 -1240 72"
+"origin" "-464 -1240 80"
 }
 // entity 696
 {
 "classname" "monster_fish"
-"origin" "-600 -1344 72"
+"origin" "-600 -1344 80"
 }
 // entity 697
 {
