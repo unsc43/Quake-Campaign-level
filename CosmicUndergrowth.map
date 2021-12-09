@@ -13479,7 +13479,7 @@
 "targetname" ""
 "target" "Doors2"
 "angle" "180"
-"message" "Area 6 unlocked"
+"message" ""
 // brush 0
 {
 ( -650 -1432 228 ) ( -650 -1432 229 ) ( -650 -1433 228 ) +0button_0 [ 1.4901161071382978e-08 -1 0 -24 ] [ 0 0 -1 12 ] 180 1 1
@@ -25507,7 +25507,7 @@
 "targetname" ""
 "target" "Doors"
 "angle" "180"
-"message" "Area 7 unlocked"
+"message" ""
 // brush 0
 {
 ( -222 -210 220 ) ( -222 -210 221 ) ( -222 -211 220 ) +0button_0 [ 1.4901161676284453e-08 -0.9999999999999999 0 14 ] [ 0 0 -1 12 ] 180 1 1
@@ -26170,7 +26170,7 @@
 "targetname" ""
 "target" "doorrelay2"
 "health" "5"
-"message" "Button 1 hit"
+"message" ""
 "angle" "90"
 // brush 0
 {
@@ -26188,7 +26188,7 @@
 "targetname" ""
 "target" "doorrelay2"
 "health" "5"
-"message" "Button 2 Hit"
+"message" ""
 "angle" "90"
 // brush 0
 {
