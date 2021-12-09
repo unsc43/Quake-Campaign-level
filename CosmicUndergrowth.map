@@ -25597,17 +25597,17 @@
 // entity 773
 {
 "classname" "light"
-"origin" "-824 488 280"
+"origin" "-840 608 280"
 }
 // entity 774
 {
 "classname" "light"
-"origin" "-640 480 280"
+"origin" "-656 600 280"
 }
 // entity 775
 {
 "classname" "light"
-"origin" "-744 480 280"
+"origin" "-760 600 280"
 }
 // entity 776
 {
@@ -25689,6 +25689,7 @@
 "classname" "monster_shambler"
 "origin" "-752 1056 272"
 "angle" "270"
+"targetname" "Finalroom"
 }
 // entity 792
 {
@@ -26140,45 +26141,68 @@
 {
 "classname" "monster_zombie"
 "origin" "-864 552 232"
+"targetname" "Finalroom"
 }
 // entity 819
 {
 "classname" "monster_zombie"
 "origin" "-856 416 232"
+"targetname" "Finalroom"
 }
 // entity 820
 {
 "classname" "monster_zombie"
 "origin" "-656 568 232"
 "angle" "180"
+"targetname" "Finalroom"
 }
 // entity 821
 {
 "classname" "monster_zombie"
 "origin" "-648 432 232"
 "angle" "180"
+"targetname" "Finalroom"
 }
 // entity 822
 {
 "classname" "monster_zombie"
 "origin" "-520 856 272"
 "angle" "180"
+"targetname" "Finalroom"
 }
 // entity 823
 {
 "classname" "monster_zombie"
 "origin" "-512 720 272"
 "angle" "180"
+"targetname" "Finalroom"
 }
 // entity 824
 {
 "classname" "monster_zombie"
 "origin" "-976 704 272"
 "angle" "0"
+"targetname" "Finalroom"
 }
 // entity 825
 {
 "classname" "monster_zombie"
 "origin" "-984 840 272"
 "angle" "0"
+"targetname" "Finalroom"
+}
+// entity 826
+{
+"classname" "trigger_once"
+"targetname" ""
+"target" "Finalroom"
+// brush 0
+{
+( -808 408 216 ) ( -808 409 216 ) ( -808 408 217 ) trigger [ -2.503722994132712e-15 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -712 320 208 ) ( -713 320 208 ) ( -712 320 209 ) trigger [ 1 -2.503722994132712e-15 0 -16 ] [ 0 0 -1 0 ] 0 1 1
+( -712 304 208 ) ( -712 305 208 ) ( -713 304 208 ) trigger [ -2.503722994132712e-15 -1 0 0 ] [ 1 -2.503722994132712e-15 0 -16 ] 90 1 1
+( -744 408 264 ) ( -745 408 264 ) ( -744 409 264 ) trigger [ 2.503722994132712e-15 1 0 0 ] [ 1 -2.503722994132712e-15 0 -16 ] 270 1 1
+( -744 352 216 ) ( -744 352 217 ) ( -745 352 216 ) trigger [ -1 2.503722994132712e-15 0 16 ] [ 0 0 -1 0 ] 0 1 1
+( -712 304 208 ) ( -712 304 209 ) ( -712 305 208 ) trigger [ 2.503722994132712e-15 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
 }
