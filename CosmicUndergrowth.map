@@ -13414,7 +13414,7 @@
 "lip" "8"
 "sounds" "2"
 "angle" "-90"
-"targetname" "A4D3"
+"targetname" "Doors2"
 // brush 0
 {
 ( -328 -576 216 ) ( -328 -575 216 ) ( -328 -576 217 ) deldoor1vert [ 0 -1 0 75 ] [ 0 0 -1 73 ] 0 1 0.5
@@ -13477,7 +13477,7 @@
 {
 "classname" "func_button"
 "targetname" ""
-"target" "A4D3"
+"target" "Doors2"
 "angle" "180"
 "message" "Area 6 unlocked"
 // brush 0
@@ -13526,7 +13526,7 @@
 "classname" "func_door"
 "sounds" "2"
 "angle" "90"
-"targetname" "A4D3"
+"targetname" "Doors2"
 // brush 0
 {
 ( -328 -520 216 ) ( -328 -519 216 ) ( -328 -520 217 ) deldoor1vert [ 0 -1 0 84 ] [ 0 0 -1 73 ] 0 1 0.5
@@ -13713,7 +13713,7 @@
 {
 "classname" "func_door"
 "wait" "-1"
-"targetname" "A4D4"
+"targetname" "Doors"
 // brush 0
 {
 ( -760 360 240 ) ( -760 361 240 ) ( -760 360 241 ) level1 [ -5.053215498074303e-16 -1 0 24 ] [ 0 0 -1 73 ] 0 1 1
@@ -13777,7 +13777,7 @@
 "classname" "func_door"
 "angle" "180"
 "wait" "-1"
-"targetname" "A4D4"
+"targetname" "Doors"
 // brush 0
 {
 ( -808 360 240 ) ( -808 361 240 ) ( -808 360 241 ) level1 [ -5.053215498074303e-16 -1 0 24 ] [ 0 0 -1 73 ] 0 1 1
@@ -25547,7 +25547,7 @@
 {
 "classname" "func_button"
 "targetname" ""
-"target" "A4D4"
+"target" "Doors"
 "angle" "180"
 "message" "Area 7 unlocked"
 // brush 0
