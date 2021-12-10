@@ -26458,33 +26458,41 @@
 "classname" "monster_demon1"
 "origin" "-192 -304 232"
 "angle" "255"
+"target" ""
+"targetname" "MonstersGroup"
 }
 // entity 837
 {
 "classname" "monster_demon1"
 "origin" "-384 -704 232"
 "angle" "135"
+"targetname" "Monsters"
 }
 // entity 838
 {
 "classname" "monster_demon1"
 "origin" "-160 -496 232"
 "angle" "135"
+"target" ""
+"targetname" "MonstersGroup"
 }
 // entity 839
 {
 "classname" "monster_fish"
 "origin" "-424 -1224 88"
+"targetname" "Fishes"
 }
 // entity 840
 {
 "classname" "monster_fish"
 "origin" "-464 -1384 88"
+"targetname" "Fishes"
 }
 // entity 841
 {
 "classname" "monster_fish"
 "origin" "-584 -1344 88"
+"targetname" "Fishes"
 }
 // entity 842
 {
@@ -26501,4 +26509,49 @@
 "classname" "light"
 "origin" "-136 -320 280"
 "style" "10"
+}
+// entity 845
+{
+"classname" "trigger_once"
+"target" "Monsters"
+"targetname" "Enemyspawnedtrigger"
+// brush 0
+{
+( -608 -680 208 ) ( -608 -679 208 ) ( -608 -680 209 ) trigger [ 0 -1 0 32 ] [ 0 0 -1 0 ] 0 1 1
+( -616 -656 208 ) ( -616 -656 209 ) ( -615 -656 208 ) trigger [ 1 0 0 -8 ] [ 0 0 -1 0 ] 0 1 1
+( -616 -680 208 ) ( -615 -680 208 ) ( -616 -679 208 ) trigger [ -1 0 0 8 ] [ 0 -1 0 32 ] 0 1 1
+( -592 -568 264 ) ( -592 -567 264 ) ( -591 -568 264 ) trigger [ 1 0 0 -8 ] [ 0 -1 0 32 ] 0 1 1
+( -592 -536 216 ) ( -591 -536 216 ) ( -592 -536 217 ) trigger [ -1 0 0 8 ] [ 0 0 -1 0 ] 0 1 1
+( -576 -568 216 ) ( -576 -568 217 ) ( -576 -567 216 ) trigger [ 0 1 0 -32 ] [ 0 0 -1 0 ] 0 1 1
+}
+}
+// entity 846
+{
+"classname" "trigger_once"
+"target" "Fishes"
+"targetname" "Enemyspawnedtrigger"
+// brush 0
+{
+( -472 -864 216 ) ( -472 -863 216 ) ( -472 -864 217 ) trigger [ 1.048990684667789e-15 -1 0 -8 ] [ 0 0 -1 0 ] 0 1 1
+( -328 -880 208 ) ( -329 -880 208 ) ( -328 -880 209 ) trigger [ 1 1.048990684667789e-15 0 16 ] [ 0 0 -1 0 ] 0 1 1
+( -328 -888 208 ) ( -328 -887 208 ) ( -329 -888 208 ) trigger [ 1.048990684667789e-15 -1 0 -8 ] [ 1 1.048990684667789e-15 0 16 ] 90 1 1
+( -440 -864 264 ) ( -441 -864 264 ) ( -440 -863 264 ) trigger [ -1.048990684667789e-15 1 0 8 ] [ 1 1.048990684667789e-15 0 16 ] 270 1 1
+( -440 -848 216 ) ( -440 -848 217 ) ( -441 -848 216 ) trigger [ -1 -1.048990684667789e-15 0 -16 ] [ 0 0 -1 0 ] 0 1 1
+( -352 -888 208 ) ( -352 -888 209 ) ( -352 -887 208 ) trigger [ -1.048990684667789e-15 1 0 8 ] [ 0 0 -1 0 ] 0 1 1
+}
+}
+// entity 847
+{
+"classname" "trigger_once"
+"target" "MonstersGroup"
+"targetname" "Enemyspawnedtrigger"
+// brush 0
+{
+( -336 -576 208 ) ( -336 -575 208 ) ( -336 -576 209 ) trigger [ 0 -1 0 8 ] [ 0 0 -1 0 ] 0 1 1
+( -344 -552 208 ) ( -344 -552 209 ) ( -343 -552 208 ) trigger [ 1 0 0 -24 ] [ 0 0 -1 0 ] 0 1 1
+( -344 -576 208 ) ( -343 -576 208 ) ( -344 -575 208 ) trigger [ -1 0 0 24 ] [ 0 -1 0 8 ] 0 1 1
+( -320 -464 264 ) ( -320 -463 264 ) ( -319 -464 264 ) trigger [ 1 0 0 -24 ] [ 0 -1 0 8 ] 0 1 1
+( -320 -432 216 ) ( -319 -432 216 ) ( -320 -432 217 ) trigger [ -1 0 0 24 ] [ 0 0 -1 0 ] 0 1 1
+( -304 -464 216 ) ( -304 -464 217 ) ( -304 -463 216 ) trigger [ 0 1 0 -8 ] [ 0 0 -1 0 ] 0 1 1
+}
 }
