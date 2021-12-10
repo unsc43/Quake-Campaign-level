@@ -18286,8 +18286,17 @@
 }
 // entity 488
 {
+<<<<<<< HEAD
 "classname" "item_shells"
 "origin" "-568 -1800 16"
+=======
+"classname" "light"
+"origin" "1696 -2672 176"
+"targetname" "Ldoor1"
+"style" "9"
+"wait" "1"
+"_color" "0.737255 0.203922 0.0156863"
+>>>>>>> parent of ba63067 (button fix)
 }
 // entity 489
 {
@@ -19079,8 +19088,17 @@
 }
 // entity 587
 {
+<<<<<<< HEAD
 "classname" "trigger_multiple"
 "targetname" ""
+=======
+"classname" "light"
+"origin" "872 -2256 144"
+"targetname" "Ldoor2"
+"style" "9"
+"wait" "1"
+"_color" "0.741176 0.203922 0.0196078"
+>>>>>>> parent of ba63067 (button fix)
 "target" ""
 "message" "Shoot the 4 buttons"
 // brush 0
@@ -19105,6 +19123,7 @@
 }
 // entity 590
 {
+<<<<<<< HEAD
 "classname" "light"
 "origin" "-1504 -1856 -152"
 "light" "100"
@@ -19123,10 +19142,23 @@
 "origin" "-1712 -1672 -152"
 "light" "100"
 "_color" "100 153 147"
+=======
+"classname" "path_corner"
+"origin" "1712 -2688 304"
+"targetname" "Lightpath"
+"target" "Lightpath2"
+}
+// entity 473
+{
+"classname" "path_corner"
+"origin" "1696 -2688 176"
+"targetname" "Lightpath2"
+>>>>>>> parent of ba63067 (button fix)
 }
 // entity 593
 {
 "classname" "light"
+<<<<<<< HEAD
 "origin" "-1936 -1664 -152"
 "light" "100"
 "_color" "100 153 147"
@@ -19137,4 +19169,11 @@
 "origin" "-1800 -1648 -152"
 "light" "100"
 "_color" "100 153 147"
+=======
+"origin" "1712 -2688 288"
+"targetname" "Ldoor1"
+"style" "9"
+"wait" "1"
+"_color" "0.737255 0.203922 0.0156863"
+>>>>>>> parent of ba63067 (button fix)
 }

@@ -7270,6 +7270,7 @@
 ( 168 -600 144 ) ( 169 -600 144 ) ( 168 -600 145 ) a_reactorfloor3 [ -1 0 0 0 ] [ 0 0 -1 48 ] 0 1 1
 ( 200 -376 144 ) ( 200 -376 145 ) ( 200 -375 144 ) a_reactorfloor3 [ 0 1 0 0 ] [ 0 0 -1 48 ] 0 1 1
 }
+<<<<<<< HEAD
 // brush 762
 {
 ( -3164 -2080 112 ) ( -3164 -2080 113 ) ( -3164 -2081 112 ) conc_panel02 [ 1.4901151217303266e-08 -1 0 -16 ] [ 0 0 -1 16 ] 180 1 1
@@ -9628,6 +9629,8 @@
 ( -416 376 296 ) ( -415 376 296 ) ( -416 376 297 ) conc_panel02 [ -1 0 0 -16 ] [ 0 0 -1 -8 ] 0 1 1
 ( -696 600 296 ) ( -696 600 297 ) ( -696 601 296 ) conc_panel02 [ 0 1 0 8 ] [ 0 0 -1 -8 ] 0 1 1
 }
+=======
+>>>>>>> parent of ba63067 (button fix)
 }
 // entity 1
 {
@@ -11262,14 +11265,14 @@
 // entity 41
 {
 "classname" "monster_dog"
-"origin" "160 -384 88"
+"origin" "152 -520 88"
 "angle" "195"
 "targetname" "Hiddenenemies"
 }
 // entity 42
 {
 "classname" "monster_dog"
-"origin" "16 -384 88"
+"origin" "8 -520 88"
 "angle" "0"
 "targetname" "Hiddenenemies"
 }
@@ -14616,11 +14619,16 @@
 // entity 226
 {
 "classname" "func_button"
+<<<<<<< HEAD
 "targetname" "ShootD1"
 "target" "ShootD2"
 "health" "5"
 "message" "Button 1 hit"
 "angle" "90"
+=======
+"targetname" "LockedDoorbuttonShoot"
+"target" ""
+>>>>>>> parent of ba63067 (button fix)
 // brush 0
 {
 ( -3000 -1110 120 ) ( -3000 -1109 120 ) ( -3000 -1110 121 ) gdtime60 [ 1.4901161775864376e-08 -0.9999999999999999 0 2 ] [ 0 0 -1 0 ] 180 0.2 0.2
@@ -14634,11 +14642,16 @@
 // entity 227
 {
 "classname" "func_button"
+<<<<<<< HEAD
 "targetname" "ShootD2"
 "target" "ShootD3"
 "health" "5"
 "message" "Button 2 Hit"
 "angle" "90"
+=======
+"targetname" "LockedDoorbuttonShoot"
+"target" ""
+>>>>>>> parent of ba63067 (button fix)
 // brush 0
 {
 ( -2632 -1102 120 ) ( -2632 -1101 120 ) ( -2632 -1102 121 ) gdtime60 [ 1.4901161775864376e-08 -0.9999999999999999 0 10 ] [ 0 0 -1 0 ] 180 0.2 0.2
@@ -14941,7 +14954,6 @@
 "targetname" "Hiddenenemies"
 "lip" "2"
 "wait" "-1"
-"sounds" "4"
 // brush 0
 {
 ( 88 -572 114 ) ( 88 -571 114 ) ( 88 -572 115 ) stor_door [ 3.8285686989269494e-16 -1 0 4 ] [ 0 0 -1 70 ] 0 1 1
@@ -14959,7 +14971,6 @@
 "targetname" "Hiddenenemies"
 "lip" "2"
 "wait" "-1"
-"sounds" "4"
 // brush 0
 {
 ( 60 -572 114 ) ( 60 -571 114 ) ( 60 -572 115 ) stor_door [ 3.8285686989269494e-16 -1 0 4 ] [ 0 0 -1 70 ] 0 1 1
@@ -19221,15 +19232,13 @@
 {
 "classname" "light"
 "origin" "96 -664 192"
-"_color" "0.211765 0.054902 0.00392157"
-"light" "250"
-"style" "6"
 }
 // entity 498
 {
 "classname" "light"
 "origin" "488 -760 200"
 }
+<<<<<<< HEAD
 // entity 499
 {
 "classname" "light"
@@ -20166,3 +20175,5 @@
 "classname" "item_shells"
 "origin" "-848 -1080 192"
 }
+=======
+>>>>>>> parent of ba63067 (button fix)

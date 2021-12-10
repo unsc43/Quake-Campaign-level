@@ -7288,6 +7288,7 @@
 ( -3048 -2072 48 ) ( -3047 -2072 48 ) ( -3048 -2072 49 ) lfwall13g2 [ -0.9999999999999999 -1.4901159011749194e-08 0 -72 ] [ 0 0 -1 0 ] 180 1 1
 ( -3104 -1768 80 ) ( -3104 -1769 80 ) ( -3104 -1768 81 ) lfwall13g2 [ -1.4901159011749194e-08 1 0 56 ] [ 0 0 -1 0 ] 180 1 1
 }
+<<<<<<< HEAD
 // brush 764
 {
 ( -3760 -1020 288 ) ( -3760 -1019 288 ) ( -3760 -1020 289 ) conc_panel02 [ 0 -1 0 36 ] [ 0 0 -1 16 ] 0 1 1
@@ -9952,6 +9953,8 @@
 ( -544 -1112 56 ) ( -543 -1112 56 ) ( -544 -1112 57 ) *liquid_dc [ -1 0 0 8 ] [ 0 0 -1 0 ] 0 1 1
 ( -360 -1112 56 ) ( -360 -1112 57 ) ( -360 -1111 56 ) *liquid_dc [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
+=======
+>>>>>>> parent of ba63067 (button fix)
 }
 // entity 1
 {
@@ -14857,9 +14860,15 @@
 // entity 221
 {
 "classname" "func_door"
+<<<<<<< HEAD
 "targetname" "LockedSDoor"
 "wait" "-1"
 "angle" "0"
+=======
+"targetname" ""
+"wait" "9999"
+"angle" "-90"
+>>>>>>> parent of ba63067 (button fix)
 "sounds" "2"
 "message" "Shoot the buttons"
 // brush 0
@@ -14875,9 +14884,15 @@
 // entity 222
 {
 "classname" "func_door"
+<<<<<<< HEAD
 "targetname" "LockedSDoor"
 "wait" "-1"
 "angle" "180"
+=======
+"targetname" ""
+"wait" "9999"
+"angle" "90"
+>>>>>>> parent of ba63067 (button fix)
 "sounds" "4"
 "message" "Shoot the buttons"
 // brush 0
@@ -14940,8 +14955,8 @@
 // entity 226
 {
 "classname" "func_button"
-"targetname" "ShootD1"
-"target" "ShootD2"
+"targetname" "LockedDoorbuttonShoot"
+"target" ""
 "health" "5"
 "message" "Button 1 hit"
 "angle" "90"
@@ -14958,8 +14973,8 @@
 // entity 227
 {
 "classname" "func_button"
-"targetname" "ShootD2"
-"target" "ShootD3"
+"targetname" "LockedDoorbuttonShoot"
+"target" ""
 "health" "5"
 "message" "Button 2 Hit"
 "angle" "90"
@@ -19736,9 +19751,45 @@
 }
 // entity 505
 {
+"classname" "func_door"
+"targetname" ""
+"angle" "90"
+"sounds" "2"
+"lip" "2"
+"wait" "-1"
+// brush 0
+{
+( -3202 -1988 34 ) ( -3202 -1988 35 ) ( -3202 -1989 34 ) stor_door [ -4.28626379701573e-16 -1 0 -4 ] [ 0 0 -1 18 ] 0 1 1
+( -2942 -2080 66 ) ( -2942 -2080 67 ) ( -2941 -2080 66 ) stor_door [ 1 -4.28626379701573e-16 0 -2 ] [ 0 0 -1 18 ] 0 1 1
+( -3070 -1988 26 ) ( -3070 -1989 26 ) ( -3069 -1988 26 ) stor_door [ 4.28626379701573e-16 1 0 4 ] [ -1 4.28626379701573e-16 0 -80 ] 270 1 1
+( -2942 -2116 142 ) ( -2941 -2116 142 ) ( -2942 -2117 142 ) stor_door [ -4.28626379701573e-16 -1 0 -4 ] [ -1 4.28626379701573e-16 0 -80 ] 90 1 1
+( -3070 -2076 34 ) ( -3069 -2076 34 ) ( -3070 -2076 35 ) stor_door [ -1 4.28626379701573e-16 0 2 ] [ 0 0 -1 18 ] 0 1 1
+( -3170 -2116 66 ) ( -3170 -2117 66 ) ( -3170 -2116 67 ) stor_door [ 4.28626379701573e-16 1 0 4 ] [ 0 0 -1 18 ] 0 1 1
+}
+}
+// entity 513
+{
+"classname" "func_door"
+"targetname" ""
+"angle" "-90"
+"sounds" "2"
+"lip" "2"
+"wait" "-1"
+// brush 0
+{
+( -3118 -1988 34 ) ( -3118 -1988 35 ) ( -3118 -1989 34 ) stor_door [ -4.28626379701573e-16 -1 0 -4 ] [ 0 0 -1 18 ] 0 1 1
+( -2862 -2080 66 ) ( -2862 -2080 67 ) ( -2861 -2080 66 ) stor_door [ 1 -4.28626379701573e-16 0 19 ] [ 0 0 -1 18 ] 0 1 1
+( -2990 -1988 26 ) ( -2990 -1989 26 ) ( -2989 -1988 26 ) stor_door [ 4.28626379701573e-16 1 0 4 ] [ -1 4.28626379701573e-16 0 -28 ] 270 1 1
+( -2862 -2116 142 ) ( -2861 -2116 142 ) ( -2862 -2117 142 ) stor_door [ -4.28626379701573e-16 -1 0 -4 ] [ -1 4.28626379701573e-16 0 -28 ] 90 1 1
+( -2990 -2076 34 ) ( -2989 -2076 34 ) ( -2990 -2076 35 ) stor_door [ -1 4.28626379701573e-16 0 -18 ] [ 0 0 -1 18 ] 0 1 1
+( -3090 -2116 66 ) ( -3090 -2117 66 ) ( -3090 -2116 67 ) stor_door [ 4.28626379701573e-16 1 0 4 ] [ 0 0 -1 18 ] 0 1 1
+}
+}
+// entity 514
+{
 "classname" "func_button"
-"targetname" "ShootD3"
-"target" "ShootD4"
+"targetname" "LockedDoorbuttonShoot"
+"target" ""
 "health" "5"
 "message" "Button 3 Hit"
 "angle" "90"
@@ -19752,15 +19803,22 @@
 ( -2976 -1118 44 ) ( -2976 -1118 45 ) ( -2976 -1117 44 ) gdtime60 [ -1.4901161775864376e-08 0.9999999999999999 0 -2 ] [ 0 0 -1 -4 ] 180 0.2 0.2
 }
 }
+<<<<<<< HEAD
 // entity 506
+=======
+// entity 515
+>>>>>>> parent of ba63067 (button fix)
 {
 "classname" "func_button"
-"targetname" "ShootD4"
-"target" "LockedSDoor"
+"targetname" "LockedDoorbuttonShoot"
+"target" ""
 "health" "5"
+<<<<<<< HEAD
 "wait" ""
 "message" "Button 4 Hit"
 "angle" "90"
+=======
+>>>>>>> parent of ba63067 (button fix)
 // brush 0
 {
 ( -2632 -1102 52 ) ( -2632 -1101 52 ) ( -2632 -1102 53 ) gdtime60 [ 1.4901161775864376e-08 -0.9999999999999999 0 10 ] [ 0 0 -1 -4 ] 180 0.2 0.2
@@ -19771,6 +19829,7 @@
 ( -2608 -1110 44 ) ( -2608 -1110 45 ) ( -2608 -1109 44 ) gdtime60 [ -1.4901161775864376e-08 0.9999999999999999 0 -10 ] [ 0 0 -1 -4 ] 180 0.2 0.2
 }
 }
+<<<<<<< HEAD
 // entity 507
 {
 "classname" "light"
@@ -20490,3 +20549,5 @@
 "classname" "item_shells"
 "origin" "-848 -1080 192"
 }
+=======
+>>>>>>> parent of ba63067 (button fix)

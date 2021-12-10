@@ -15758,11 +15758,21 @@
 }
 // entity 216
 {
+<<<<<<< HEAD
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "door piece "
 "_tb_id" "70"
 "_tb_group" "72"
+=======
+"classname" "func_door"
+"targetname" "LockedSDoor2"
+"wait" "-1"
+"angle" "0"
+"sounds" "2"
+"message" "Shoot the buttons"
+"speed" "40"
+>>>>>>> parent of ba63067 (button fix)
 // brush 0
 {
 ( -1846 -1652 -190 ) ( -1846 -1652 -189 ) ( -1846 -1653 -190 ) a_conpanel9b [ -5.0686783282227915e-15 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -15883,21 +15893,47 @@
 }
 // brush 1
 {
+<<<<<<< HEAD
 ( -1822 -2164 -306 ) ( -1822 -2164 -305 ) ( -1822 -2165 -306 ) a_conpanel9b [ -5.0686783282227915e-15 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( -1566 -2270 -274 ) ( -1566 -2270 -273 ) ( -1565 -2270 -274 ) a_conpanel9b [ 1 -5.0686783282227915e-15 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( -1694 -2164 -216 ) ( -1694 -2165 -216 ) ( -1693 -2164 -216 ) a_conpanel9b [ 5.0686783282227915e-15 1 0 0 ] [ -1 5.0686783282227915e-15 0 0 ] 270 1 1
 ( -1566 -2292 -190 ) ( -1565 -2292 -190 ) ( -1566 -2293 -190 ) a_conpanel9b [ -5.0686783282227915e-15 -1 0 0 ] [ -1 5.0686783282227915e-15 0 0 ] 90 1 1
 ( -1694 -2244 -306 ) ( -1693 -2244 -306 ) ( -1694 -2244 -305 ) a_conpanel9b [ -1 5.0686783282227915e-15 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( -1764 -2292 -274 ) ( -1764 -2293 -274 ) ( -1764 -2292 -273 ) a_conpanel9b [ 5.0686783282227915e-15 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+=======
+"classname" "func_button"
+"targetname" "ShootD1"
+"target" "LockedSDoor"
+"health" "5"
+"message" "Button 1 hit"
+"angle" "90"
+// brush 0
+{
+( -3000 -1110 120 ) ( -3000 -1109 120 ) ( -3000 -1110 121 ) gdtime60 [ 1.4901161775864376e-08 -0.9999999999999999 0 2 ] [ 0 0 -1 0 ] 180 0.2 0.2
+( -2952 -1118 112 ) ( -2953 -1118 112 ) ( -2952 -1118 113 ) gdtime67 [ 1 1.4901161775864376e-08 0 27.999859 ] [ 0 0 -1 -4.0000095 ] 180 0.2 0.2
+( -2952 -1118 128 ) ( -2952 -1117 128 ) ( -2953 -1118 128 ) gdtime60 [ 1.4901161775864376e-08 -0.9999999999999999 0 2 ] [ 1 1.4901161775864376e-08 0 0 ] 90 0.2 0.2
+( -3008 -1110 152 ) ( -3009 -1110 152 ) ( -3008 -1109 152 ) gdtime60 [ -1.4901161775864376e-08 0.9999999999999999 0 -2 ] [ 1 1.4901161775864376e-08 0 0 ] 270 0.2 0.2
+( -3008 -1110 120 ) ( -3008 -1110 121 ) ( -3009 -1110 120 ) gdtime67 [ -1 -1.4901161775864376e-08 0 0 ] [ 0 0 -1 0 ] 180 0.2 0.2
+( -2976 -1118 112 ) ( -2976 -1118 113 ) ( -2976 -1117 112 ) gdtime60 [ -1.4901161775864376e-08 0.9999999999999999 0 -2 ] [ 0 0 -1 0 ] 180 0.2 0.2
+>>>>>>> parent of ba63067 (button fix)
 }
 }
 // entity 219
 {
+<<<<<<< HEAD
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "door piece "
 "_tb_id" "73"
 "_tb_group" "75"
+=======
+"classname" "func_button"
+"targetname" "ShootD2"
+"target" "LockedSDoor2"
+"health" "5"
+"message" "Button 2 Hit"
+"angle" "90"
+>>>>>>> parent of ba63067 (button fix)
 // brush 0
 {
 ( -1854 -2164 -190 ) ( -1854 -2164 -189 ) ( -1854 -2165 -190 ) a_conpanel9b [ -5.0686783282227915e-15 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -20327,10 +20363,20 @@
 }
 // entity 486
 {
+<<<<<<< HEAD
 "classname" "item_health"
 "origin" "-3276 -1752 16"
 }
 // entity 487
+=======
+"classname" "func_button"
+"targetname" "ShootD3"
+"target" "LockedSDoor"
+"health" "5"
+"message" "Button 3 Hit"
+"angle" "90"
+// brush 0
+>>>>>>> parent of ba63067 (button fix)
 {
 "classname" "item_spikes"
 "origin" "-3132 -1748 16"
@@ -20342,6 +20388,7 @@
 }
 // entity 489
 {
+<<<<<<< HEAD
 "classname" "weapon_lightning"
 "origin" "-472 -312 16"
 "angle" "180"
@@ -20385,6 +20432,14 @@
 {
 "classname" "monster_dog"
 "origin" "-1872 -1040 -16"
+=======
+"classname" "func_button"
+"targetname" "ShootD4"
+"target" "LockedSDoor2"
+"health" "5"
+"wait" ""
+"message" "Button 4 Hit"
+>>>>>>> parent of ba63067 (button fix)
 "angle" "90"
 "targetname" "SupriseDog"
 }
@@ -25437,6 +25492,7 @@
 ( -2816 -1176 -40 ) ( -2816 -1176 -39 ) ( -2816 -1175 -40 ) tramdoor1 [ 2.2816783892076807e-15 1 0 -40 ] [ 0 0 -1 -56 ] 0 1 1
 }
 }
+<<<<<<< HEAD
 // entity 761
 {
 "classname" "trigger_counter"
@@ -25477,3 +25533,5 @@
 "spawnflags" "1"
 "targetname" "ShootD2"
 }
+=======
+>>>>>>> parent of ba63067 (button fix)
