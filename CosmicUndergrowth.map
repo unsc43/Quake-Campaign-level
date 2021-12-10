@@ -25003,7 +25003,7 @@
 "targetname" ""
 "target" "doorrelay2"
 "health" "5"
-"message" "I should shoot it"
+"message" ""
 "angle" "90"
 // brush 0
 {
