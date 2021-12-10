@@ -24841,7 +24841,7 @@
 // entity 751
 {
 "classname" "trap_spikeshooter"
-"origin" "872 -2496 184"
+"origin" "872 -2416 136"
 "spawnflags" "2"
 "targetname" "Lasertrap"
 "angle" "-2"
@@ -24849,15 +24849,48 @@
 // entity 752
 {
 "classname" "trigger_multiple"
-"targetname" "FirstTrap"
-"target" "Lasertrap"
+"targetname" "Lasertraps"
+"target" "Lasertrap1"
 // brush 0
 {
 ( 816 -2488 16 ) ( 816 -2487 16 ) ( 816 -2488 17 ) trigger [ 0 -1 0 -24 ] [ 0 0 -1 0 ] 0 1 1
-( 864 -2416 16 ) ( 864 -2416 17 ) ( 865 -2416 16 ) trigger [ 1 0 0 -24 ] [ 0 0 -1 0 ] 0 1 1
+( 864 -2480 16 ) ( 864 -2480 17 ) ( 865 -2480 16 ) trigger [ 1 0 0 -24 ] [ 0 0 -1 0 ] 0 1 1
 ( 864 -2488 16 ) ( 865 -2488 16 ) ( 864 -2487 16 ) trigger [ -1 0 0 24 ] [ 0 -1 0 -24 ] 0 1 1
-( 944 -2480 64 ) ( 944 -2479 64 ) ( 945 -2480 64 ) trigger [ 1 0 0 -24 ] [ 0 -1 0 -24 ] 0 1 1
+( 944 -2480 56 ) ( 944 -2479 56 ) ( 945 -2480 56 ) trigger [ 1 0 0 -24 ] [ 0 -1 0 -24 ] 0 1 1
 ( 944 -2376 24 ) ( 945 -2376 24 ) ( 944 -2376 25 ) trigger [ -1 0 0 24 ] [ 0 0 -1 0 ] 0 1 1
 ( 936 -2480 24 ) ( 936 -2480 25 ) ( 936 -2479 24 ) trigger [ 0 1 0 24 ] [ 0 0 -1 0 ] 0 1 1
+}
+}
+// entity 753
+{
+"classname" "light_fluorospark"
+"origin" "872 -2416 144"
+}
+// entity 754
+{
+"classname" "light_fluorospark"
+"origin" "872 -2696 144"
+}
+// entity 755
+{
+"classname" "trap_spikeshooter"
+"origin" "872 -2696 136"
+"spawnflags" "2"
+"targetname" "Lasertrap2"
+"angle" "-2"
+}
+// entity 756
+{
+"classname" "trigger_multiple"
+"targetname" "Lasertraps"
+"target" "Lasertrap2"
+// brush 0
+{
+( 816 -2752 16 ) ( 816 -2751 16 ) ( 816 -2752 17 ) trigger [ 0 -1 0 -32 ] [ 0 0 -1 0 ] 0 1 1
+( 864 -2744 16 ) ( 864 -2744 17 ) ( 865 -2744 16 ) trigger [ 1 0 0 -24 ] [ 0 0 -1 0 ] 0 1 1
+( 864 -2752 16 ) ( 865 -2752 16 ) ( 864 -2751 16 ) trigger [ -1 0 0 24 ] [ 0 -1 0 -32 ] 0 1 1
+( 944 -2744 56 ) ( 944 -2743 56 ) ( 945 -2744 56 ) trigger [ 1 0 0 -24 ] [ 0 -1 0 -32 ] 0 1 1
+( 944 -2640 24 ) ( 945 -2640 24 ) ( 944 -2640 25 ) trigger [ -1 0 0 24 ] [ 0 0 -1 0 ] 0 1 1
+( 936 -2744 24 ) ( 936 -2744 25 ) ( 936 -2743 24 ) trigger [ 0 1 0 32 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
