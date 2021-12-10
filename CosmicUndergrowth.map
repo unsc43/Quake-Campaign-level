@@ -25571,6 +25571,7 @@
 "lip" "4"
 "sounds" "2"
 "targetname" "Alockeddoor2"
+"wait" "-1"
 // brush 0
 {
 ( -1496 336 208 ) ( -1496 337 208 ) ( -1496 336 209 ) deldoor1frm [ 0 -1 0 -8 ] [ 0 0 -1 0 ] 0 1 1
@@ -26388,15 +26389,15 @@
 // entity 822
 {
 "classname" "monster_ogre_marksman"
-"origin" "-1448 256 232"
+"origin" "-1464 256 232"
 "angle" "105"
 "targetname" "Bunkenemies"
 }
 // entity 823
 {
 "classname" "monster_ogre_marksman"
-"origin" "-1488 80 232"
-"angle" "75"
+"origin" "-1472 24 232"
+"angle" "270"
 "targetname" "Bunkenemies"
 }
 // entity 824
@@ -26772,22 +26773,22 @@
 // entity 885
 {
 "classname" "monster_shambler"
-"origin" "-824 1008 248"
-"angle" "240"
+"origin" "-744 1024 248"
+"angle" "60"
 "targetname" "Bosses"
 }
 // entity 886
 {
 "classname" "monster_shambler"
-"origin" "-744 1016 248"
-"angle" "300"
+"origin" "-824 1016 248"
+"angle" "120"
 "targetname" "Bosses"
 }
 // entity 887
 {
 "classname" "monster_ogre"
 "origin" "-376 440 296"
-"angle" "150"
+"angle" "330"
 "target" ""
 "targetname" "Finalmonsters"
 }
@@ -26818,7 +26819,7 @@
 // entity 891
 {
 "classname" "monster_zombie"
-"origin" "-560 584 240"
+"origin" "-560 536 240"
 "angle" "240"
 "target" ""
 "targetname" "Finalmonsters"
@@ -26826,7 +26827,7 @@
 // entity 892
 {
 "classname" "monster_zombie"
-"origin" "-761.516 574.747 240"
+"origin" "-761.516 526.747 240"
 "angle" "285"
 "target" ""
 "targetname" "Finalmonsters"
@@ -26834,7 +26835,7 @@
 // entity 893
 {
 "classname" "monster_zombie"
-"origin" "-1000 584 240"
+"origin" "-1000 536 240"
 "angle" "315"
 "target" ""
 "targetname" "Finalmonsters"
@@ -26854,7 +26855,7 @@
 // entity 896
 {
 "classname" "monster_demon1"
-"origin" "-1192 1000 232"
+"origin" "-1152 960 232"
 "angle" "300"
 "targetname" "Finalmonsters2"
 }
@@ -26929,6 +26930,7 @@
 "lip" "4"
 "sounds" "2"
 "targetname" "Alockeddoor2"
+"wait" "-1"
 // brush 0
 {
 ( -1488 -272 208 ) ( -1488 -271 208 ) ( -1488 -272 209 ) deldoor1frm [ 0 -1 0 -104 ] [ 0 0 -1 0 ] 0 1 1
@@ -26943,4 +26945,9 @@
 {
 "classname" "light"
 "origin" "-1368 -320 280"
+}
+// entity 904
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-976 -392 208"
 }
