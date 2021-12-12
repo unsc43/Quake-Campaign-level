@@ -26504,7 +26504,7 @@
 // entity 836
 {
 "classname" "monster_demon1"
-"origin" "-192 -320 232"
+"origin" "-200 -304 248"
 "angle" "255"
 "target" ""
 "targetname" "MonstersGroup"
@@ -26519,7 +26519,7 @@
 // entity 838
 {
 "classname" "monster_demon1"
-"origin" "-160 -496 232"
+"origin" "-168 -488 248"
 "angle" "135"
 "target" ""
 "targetname" "MonstersGroup"
