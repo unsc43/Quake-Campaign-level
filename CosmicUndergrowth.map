@@ -19288,6 +19288,7 @@
 "_color" "0.219608 0.886275 0.521569"
 "targetname" "S2Door"
 "style" "9"
+"spawnflags" "1"
 }
 // entity 371
 {
@@ -27805,4 +27806,9 @@
 {
 "classname" "light_flame_large_yellow"
 "origin" "3176 -2368 100"
+}
+// entity 958
+{
+"classname" "light"
+"origin" "1000 -1280 136"
 }
