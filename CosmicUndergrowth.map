@@ -27144,7 +27144,7 @@
 // entity 891
 {
 "classname" "monster_zombie"
-"origin" "-656 552 240"
+"origin" "-648 504 240"
 "angle" "240"
 "target" ""
 "targetname" "Finalmonsters"
@@ -27152,7 +27152,7 @@
 // entity 892
 {
 "classname" "monster_zombie"
-"origin" "-761.516 526.747 240"
+"origin" "-753.516 438.747 240"
 "angle" "285"
 "target" ""
 "targetname" "Finalmonsters"
@@ -27160,7 +27160,7 @@
 // entity 893
 {
 "classname" "monster_zombie"
-"origin" "-840 568 240"
+"origin" "-872 504 240"
 "angle" "315"
 "target" ""
 "targetname" "Finalmonsters"
