@@ -24162,7 +24162,7 @@
 // entity 727
 {
 "classname" "item_artifact_super_damage"
-"origin" "-760 736 240"
+"origin" "-768 624 240"
 }
 // entity 728
 {
@@ -26872,13 +26872,6 @@
 }
 // entity 896
 {
-"classname" "monster_demon1"
-"origin" "-1312 960 264"
-"angle" "180"
-"targetname" "Finalmonsters4"
-}
-// entity 897
-{
 "classname" "trigger_once"
 "targetname" "Finalroom"
 "target" "Finalmonsters"
@@ -26892,7 +26885,7 @@
 ( -704 328 216 ) ( -704 328 217 ) ( -704 329 216 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 898
+// entity 897
 {
 "classname" "trigger_once"
 "targetname" "Finalroom"
@@ -26907,7 +26900,7 @@
 ( -552 664 216 ) ( -552 664 217 ) ( -552 665 216 ) trigger [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 899
+// entity 898
 {
 "classname" "trigger_once"
 "targetname" "Finalroom"
@@ -26922,7 +26915,7 @@
 ( -552 792 216 ) ( -552 792 217 ) ( -552 793 216 ) trigger [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 900
+// entity 899
 {
 "classname" "light"
 "origin" "-1480 -272 256"
@@ -26932,7 +26925,7 @@
 "spawnflags" "1"
 "targetname" "LightsD1"
 }
-// entity 901
+// entity 900
 {
 "classname" "light"
 "origin" "-1480 -272 264"
@@ -26941,7 +26934,7 @@
 "style" "0"
 "targetname" "LightsD1"
 }
-// entity 902
+// entity 901
 {
 "classname" "func_door"
 "angle" "180"
@@ -26959,137 +26952,137 @@
 ( -1392 -240 216 ) ( -1392 -240 217 ) ( -1392 -239 216 ) deldoor1frm [ 0 1 0 104 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 903
+// entity 902
 {
 "classname" "light"
 "origin" "-1368 -320 280"
 }
-// entity 904
+// entity 903
 {
 "classname" "weapon_rocketlauncher"
 "origin" "-976 -392 208"
 }
-// entity 905
+// entity 904
 {
 "classname" "light"
 "origin" "-224 1056 280"
 }
-// entity 906
+// entity 905
 {
 "classname" "light"
 "origin" "-224 848 280"
 }
-// entity 907
+// entity 906
 {
 "classname" "light"
 "origin" "96 1072 280"
 }
-// entity 908
+// entity 907
 {
 "classname" "light"
 "origin" "96 864 280"
 }
-// entity 909
+// entity 908
 {
 "classname" "light"
 "origin" "-64 1120 280"
 }
-// entity 910
+// entity 909
 {
 "classname" "light"
 "origin" "-64 912 280"
 }
-// entity 911
+// entity 910
 {
 "classname" "light"
 "origin" "144 1088 280"
 }
-// entity 912
+// entity 911
 {
 "classname" "light"
 "origin" "144 880 280"
 }
-// entity 913
+// entity 912
 {
 "classname" "light"
 "origin" "-1400 840 280"
 }
-// entity 914
+// entity 913
 {
 "classname" "light"
 "origin" "-1400 1048 280"
 }
-// entity 915
+// entity 914
 {
 "classname" "light"
 "origin" "-1400 840 344"
 }
-// entity 916
+// entity 915
 {
 "classname" "light"
 "origin" "-1400 1048 344"
 }
-// entity 917
+// entity 916
 {
 "classname" "light"
 "origin" "-1608 856 344"
+}
+// entity 917
+{
+"classname" "light"
+"origin" "-1608 1064 344"
 }
 // entity 918
 {
 "classname" "light"
-"origin" "-1608 1064 344"
+"origin" "-1608 856 344"
 }
 // entity 919
 {
 "classname" "light"
-"origin" "-1608 856 344"
+"origin" "-1608 1064 344"
 }
 // entity 920
 {
 "classname" "light"
-"origin" "-1608 1064 344"
+"origin" "-1816 904 344"
 }
 // entity 921
 {
 "classname" "light"
-"origin" "-1816 904 344"
+"origin" "-1816 1112 344"
 }
 // entity 922
 {
 "classname" "light"
-"origin" "-1816 1112 344"
+"origin" "-1320 968 280"
 }
 // entity 923
 {
 "classname" "light"
-"origin" "-1320 968 280"
-}
-// entity 924
-{
-"classname" "light"
 "origin" "-1480 968 280"
 }
-// entity 925
+// entity 924
 {
 "classname" "item_rockets"
 "origin" "-1016 184 208"
 }
-// entity 926
+// entity 925
 {
 "classname" "item_rockets"
 "origin" "-1000 184 208"
 }
-// entity 927
+// entity 926
 {
 "classname" "item_cells"
 "origin" "-744 96 208"
 }
-// entity 928
+// entity 927
 {
 "classname" "item_health"
 "origin" "-808 208 208"
 }
-// entity 929
+// entity 928
 {
 "classname" "trigger_changelevel"
 "map" "Start"
@@ -27103,42 +27096,42 @@
 ( -1568 992 256 ) ( -1568 992 257 ) ( -1568 993 256 ) +6bwx [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 930
+// entity 929
 {
 "classname" "info_intermission"
 "origin" "-1448 968 344"
 }
-// entity 931
+// entity 930
 {
 "classname" "light"
 "origin" "-1664 56 288"
 }
-// entity 932
+// entity 931
 {
 "classname" "light"
 "origin" "-1696 304 288"
 }
-// entity 933
+// entity 932
 {
 "classname" "light"
 "origin" "-1304 312 288"
 }
-// entity 934
+// entity 933
 {
 "classname" "light"
 "origin" "-1288 -64 288"
 }
-// entity 935
+// entity 934
 {
 "classname" "light"
 "origin" "464 -704 160"
 }
-// entity 936
+// entity 935
 {
 "classname" "light"
 "origin" "224 -736 160"
 }
-// entity 937
+// entity 936
 {
 "classname" "trigger_once"
 "target" "S2Door"
@@ -27152,7 +27145,7 @@
 ( 992 -1120 112 ) ( 992 -1120 113 ) ( 992 -1119 112 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 938
+// entity 937
 {
 "classname" "trigger_once"
 "targetname" "Finalroom"
@@ -27165,20 +27158,5 @@
 ( -680 824 296 ) ( -680 825 296 ) ( -679 824 296 ) trigger [ 1 0 0 -16 ] [ 0 -1 0 -16 ] 0 1 1
 ( -680 1104 216 ) ( -679 1104 216 ) ( -680 1104 217 ) trigger [ -1 0 0 16 ] [ 0 0 -1 0 ] 0 1 1
 ( -520 824 216 ) ( -520 824 217 ) ( -520 825 216 ) trigger [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 1 1
-}
-}
-// entity 939
-{
-"classname" "trigger_once"
-"targetname" "Finalroom"
-"target" "Finalmonsters4"
-// brush 0
-{
-( -1120 792 208 ) ( -1120 793 208 ) ( -1120 792 209 ) trigger [ 0 -1 0 32 ] [ 0 0 -1 0 ] 0 1 1
-( -1336 800 208 ) ( -1336 800 209 ) ( -1335 800 208 ) trigger [ 1 0 0 -32 ] [ 0 0 -1 0 ] 0 1 1
-( -1336 792 208 ) ( -1335 792 208 ) ( -1336 793 208 ) trigger [ -1 0 0 32 ] [ 0 -1 0 32 ] 0 1 1
-( -1240 808 296 ) ( -1240 809 296 ) ( -1239 808 296 ) trigger [ 1 0 0 -32 ] [ 0 -1 0 32 ] 0 1 1
-( -1240 1088 216 ) ( -1239 1088 216 ) ( -1240 1088 217 ) trigger [ -1 0 0 32 ] [ 0 0 -1 0 ] 0 1 1
-( -1080 808 216 ) ( -1080 808 217 ) ( -1080 809 216 ) trigger [ 0 1 0 -32 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
